@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 230, 230);
+}
+
+.selected_button:hover{
+    border: 1px solid white;
+    color: white;
+}
+
+
+.btn-sm:hover{
+border: 1.48px solid rgb(182, 182, 182) !important;
+}
+
+.trans{
+  
+    filter: blur(8px);
+  
+    background-image: linear-gradient(transparent,rgb(233, 233, 233),rgb(233, 233, 233),rgb(233, 233, 233),rgb(233, 233, 233));
+}
+
+
+.firstcard{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.small{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+}
